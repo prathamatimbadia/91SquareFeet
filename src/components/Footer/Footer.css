@@ -1,0 +1,122 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 1060px;
+    height: 351px;
+    background: #042541 0% 0% no-repeat padding-box;
+}
+
+.footer__options {
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+}
+
+.footer__column1 {
+    display: grid;
+    width: 30%;
+    overflow: visible;
+    color: #ffff;
+}
+
+.footer__companyInfo2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.companyAddress {
+    padding: 50px 0px 0px;
+    line-height: 0px;
+    text-align: left;
+    font: normal normal normal 16px/23px Rubik;
+    color: #ffff;
+    text-align: left;
+}
+
+.companyLogo {
+    padding: 50px 0px 0px;
+    top: 1110px;
+    width: 266px;
+    height: 61px;
+}
+
+.footer__companyInfo {
+    padding-left: 146px;
+}
+
+.row {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+            minmax(185px, 1fr));
+    grid-gap: 20px;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30%;
+    text-align: left;
+    font: normal normal normal 16px/23px Rubik;
+}
+
+.heading {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.items {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font: normal normal normal 16px/23px Rubik;
+}
+
+.footer__copyright {
+    background-color: #05345C;
+    top: 1334px;
+    height: 77px;
+    background: #05345C 0% 0% no-repeat padding-box;
+    width: 100%;
+    font: normal normal normal 16px/23px Rubik;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+}
+
+.copyright__content {
+    width: 1000px;
+    padding-left: 140px;
+}
+
+.countryFlag {
+    left: 1230px;
+    width: 19px;
+    height: 19px;
+    border-radius: 12px;
+    padding: 2px;
+}
+
+.dropdownIcon {
+    height: 10px;
+    width: 10px;
+    padding: 6px 50px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.countryName {
+    padding: 0px 10px;
+    position: absolute;
+}
+
+.countrySelection {
+    position: absolute;
+    left: 1230px;
+}

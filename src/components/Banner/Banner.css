@@ -1,0 +1,93 @@
+.banner {
+    height: 510px;
+    background-image: url('../../assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__title {
+    position: absolute;
+    top: 185px;
+    font: normal normal 800 47px/63px Gilroy;
+    letter-spacing: 0px;
+    text-align: center;
+    text-shadow: 0px 3px 6px #00000076;
+}
+
+.banner__subtitle {
+    top: 276px;
+    position: absolute;
+    font: normal normal medium 20px/23px Rubik;
+}
+
+.banner__searchBar {
+    position: absolute;
+    top: 333px;
+    width: 835px;
+    height: 56px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000058;
+    border-radius: 36px;
+    border: none;
+}
+
+.banner__searchButton {
+    position: absolute;
+    top: 339px;
+    left: 1109px;
+    width: 133px;
+    height: 46px;
+    background: #EC2227 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    border: none;
+    color: #FFFFFF;
+    font: normal normal medium 15px/23px Rubik;
+}
+
+input[type="text"i] {
+    padding-left: 20px;
+}
+
+.mark {
+
+    border-radius: 100px;
+    background-color: white;
+}
+
+.mark {
+    width: 26px;
+    height: 12px;
+    margin: auto;
+    position: absolute;
+    top: 560px;
+    height: .25rem;
+}
+
+.mark::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 12px;
+    left: -70%;
+    opacity: 0.5;
+    top: -2px;
+    background-color: inherit;
+}
+
+.mark::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 12px;
+    right: -70%;
+    opacity: 0.5;
+    top: -2px;
+    background-color: inherit;
+}

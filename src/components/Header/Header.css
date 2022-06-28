@@ -1,0 +1,53 @@
+.header {
+    color: white;
+    background-color: #042541;
+    font-family: Rubik;
+    font-weight: 200;
+    height: 70px;
+    display: flex;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.header__logo {
+    top: 20px;
+    left: 146px;
+    width: 132px;
+    height: 29px;
+    position: absolute;
+}
+
+.header__nav {
+    width: 90%;
+    align-items: center;
+
+
+}
+
+.header__leftNav {
+    width: 50%;
+    position: absolute;
+    left: 340px;
+    justify-content: left;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.header__rightNav {
+    width: 60%;
+    position: absolute;
+    left: 1101px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header__search {
+    position: absolute;
+    top: 22px;
+    left: 1323px;
+}

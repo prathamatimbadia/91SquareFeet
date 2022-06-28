@@ -1,0 +1,30 @@
+.slider {
+    padding: 20px;
+}
+
+.slider__title {
+    position: absolute;
+    padding: 5px;
+    left: 146px;
+    font: normal normal medium 28px/23px Rubik;
+    color: #3D3D52;
+    font-weight: 700;
+}
+
+/* .slider__container {
+    position: absolute;
+    left: 290px;
+    width: 256px;
+    height: 37px;
+    background: #E3E3E3 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    text-align: center;
+} */
+
+.toggleButton {
+    background-color: #E3E3E3;
+    color: #3D3D52;
+    position: absolute;
+    left: 290px;
+    height: 37px;
+}
